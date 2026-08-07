@@ -1,0 +1,15 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hethusha Umanga — experiential design portfolio",
+  "scripts": {
+    "serve": "python3 -m http.server 4173",
+    "check": "node scripts/check-content.mjs",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.12.1",
+    "@playwright/test": "^1.62.1"
+  }
+}

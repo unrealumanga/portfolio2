@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f3f4ef">
+    <meta
+      name="description"
+      content="Experiential designer in Dubai working across exhibitions, national pavilions, experience centres and brand spaces throughout the GCC."
+    >
+    <meta property="og:title" content="Hethusha Umanga — Experiential Designer">
+    <meta property="og:description" content="Creating spaces that respond to people.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/hero.jpg">
+    <title>Hethusha Umanga — Experiential Designer, Dubai</title>
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/fonts/onest-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link
+      rel="preload"
+      href="img/hero-800.webp"
+      as="image"
+      type="image/webp"
+      imagesrcset="img/hero-800.webp 800w, img/hero-1200.webp 1200w, img/hero.webp 1600w"
+      imagesizes="100vw"
+      fetchpriority="high"
+    >
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header" id="site-header">
+      <a class="brand" href="#top" aria-label="Hethusha Umanga, home">
+        <span>Hethusha</span>
+        <span>Umanga</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#work">Selected work</a>
+        <a href="#index">Project index</a>
+        <a href="#practice">How I work</a>
+      </nav>
+
+      <a class="header-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      <button
+        class="menu-button"
+        id="menu-button"
+        type="button"
+        aria-label="Open menu"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="#work">Selected work</a>
+      <a href="#index">Project index</a>
+      <a href="#practice">How I work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-top shell">
+          <p class="overline">Experiential designer <span>Dubai, UAE</span></p>
+          <h1 id="hero-title">
+            Creating spaces that
+            <span class="hero-indent">respond to people.</span>
+          </h1>
+          <div class="hero-bottom">
+            <p class="hero-intro">
+              Two decades translating brand strategy into dynamic, three-dimensional worlds —
+              exhibitions, national pavilions, experience centres and workplaces across the GCC.
+            </p>
+            <a class="round-link" href="#work">
+              <span>Explore<br>the work</span>
+              <span class="round-link-arrow" aria-hidden="true">↓</span>
+            </a>
+          </div>
+        </div>
+
+        <figure class="hero-media">
+          <img
+            src="img/hero.webp"
+            srcset="img/hero-800.webp 800w, img/hero-1200.webp 1200w, img/hero.webp 1600w"
+            sizes="100vw"
+            width="1600"
+            height="900"
+            alt="Trojena Mobile Pavilion for NEOM"
+            fetchpriority="high"
+          >
+          <figcaption class="shell">
+            <span>Trojena Mobile Pavilion — NEOM</span>
+            <span>Kingdom of Saudi Arabia, 2024</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="statement shell" aria-labelledby="statement-title">
+        <p class="section-label"><span>00</span> Profile</p>
+        <div class="statement-grid">
+          <h2 id="statement-title">
+            I shape how people move through, understand and remember a brand in space.
+          </h2>
+          <div class="statement-meta">
+            <dl>
+              <div><dt>Years of practice</dt><dd>20+</dd></div>
+              <div><dt>Selected projects</dt><dd>36+</dd></div>
+              <div><dt>Core markets</dt><dd>UAE / KSA</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="work shell" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="section-label"><span>01</span> Selected work</p>
+          <h2 id="work-title">A selection of spatial stories.</h2>
+          <p>2018—2026</p>
+        </div>
+        <div class="project-grid" id="featured-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="project-index shell" id="index" aria-labelledby="index-title">
+        <div class="section-heading section-heading--compact">
+          <p class="section-label"><span>02</span> Project index</p>
+          <h2 id="index-title">Complete record.</h2>
+          <p>36 projects</p>
+        </div>
+        <div class="index-head" aria-hidden="true">
+          <span>No.</span><span>Project / Client</span><span>Sector</span><span>Year</span><span></span>
+        </div>
+        <div class="index-list" id="project-index-list"></div>
+      </section>
+
+      <section class="practice" id="practice" aria-labelledby="practice-title">
+        <div class="shell">
+          <p class="section-label section-label--light"><span>03</span> How I work</p>
+          <div class="practice-intro">
+            <h2 id="practice-title">I don’t just use AI tools — <em>I build them.</em></h2>
+            <p>
+              Outside project hours I run a working lab: AI agents wired directly into the 3D
+              software I design with. The result on live work is simple — more options explored
+              per deadline, faster client iterations, and visualisation in hours instead of days.
+              All tooling built in-house and run on my own hardware — Houdini/Karma, Blender,
+              USD, MaterialX, self-hosted language and vision models.
+            </p>
+          </div>
+          <ol class="practice-list">
+            <li>
+              <span>01</span>
+              <h3>AI agents inside the 3D pipeline</h3>
+              <p>I’ve bridged AI assistants directly into Houdini and Blender, so scenes, materials and lighting can be directed conversationally while I stay focused on the design decision, not the software.</p>
+            </li>
+            <li>
+              <span>02</span>
+              <h3>Reference image to built scene</h3>
+              <p>Vision pipelines that read a reference image, plan the scene, build it step-by-step and verify the result against the original.</p>
+            </li>
+            <li>
+              <span>03</span>
+              <h3>Custom models, run privately</h3>
+              <p>I author and self-host my own AI models, tuned to specific tools and tasks. Client work never leaves my machines.</p>
+            </li>
+            <li>
+              <span>04</span>
+              <h3>Automated asset pipelines</h3>
+              <p>SketchUp to USD to Houdini with no manual cleanup, code-generated material libraries, scripted look-dev turntables.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="sectors shell" aria-labelledby="sectors-title">
+        <div class="section-heading section-heading--compact">
+          <p class="section-label"><span>04</span> Sectors</p>
+          <h2 id="sectors-title">Fields of practice.</h2>
+          <p>Five disciplines</p>
+        </div>
+        <ul class="sector-list">
+          <li><span>Exhibitions</span><span>25 projects</span></li>
+          <li><span>Brand Spaces</span><span>05 projects</span></li>
+          <li><span>Pavilions</span><span>03 projects</span></li>
+          <li><span>Corporate</span><span>02 projects</span></li>
+          <li><span>Conference</span><span>01 project</span></li>
+        </ul>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="shell">
+          <p class="section-label section-label--light"><span>05</span> Contact</p>
+          <h2 id="contact-title">Let’s build the next <em>space</em> together.</h2>
+          <a class="contact-email" href="mailto:hethusha@gmail.com">
+            <span>hethusha@gmail.com</span><span aria-hidden="true">↗</span>
+          </a>
+          <div class="contact-details">
+            <div><span>Phone</span><a href="tel:+971552442540">+971&nbsp;55&nbsp;244&nbsp;2540</a><a href="tel:+971505126217">+971&nbsp;50&nbsp;512&nbsp;6217</a></div>
+            <div><span>Based in</span><p>Dubai,<br>United Arab Emirates</p></div>
+            <div><span>Availability</span><p>UAE / GCC / International</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <p>© 2026 Hethusha Umanga Seneviratne</p>
+      <p>Experiential Designer — Dubai, UAE</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-topbar">
+        <button class="dialog-close" id="dialog-close" type="button" aria-label="Close project">
+          <span aria-hidden="true">←</span> All projects
+        </button>
+        <div class="dialog-counter" id="dialog-counter" aria-live="polite"></div>
+        <div class="dialog-nav">
+          <button id="dialog-prev" type="button" aria-label="Previous project">←</button>
+          <button id="dialog-next" type="button" aria-label="Next project">→</button>
+        </div>
+      </div>
+      <article class="dialog-content">
+        <header class="dialog-heading shell">
+          <p class="overline" id="dialog-kicker"></p>
+          <h2 id="dialog-title">Project</h2>
+          <dl class="dialog-meta" id="dialog-meta"></dl>
+        </header>
+        <div class="dialog-gallery shell" id="dialog-gallery"></div>
+      </article>
+    </dialog>
+
+    <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
